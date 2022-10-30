@@ -1,2 +1,2 @@
 # Calculadora-de-gasto-de-combustivel
-Calculadora de gasto de combustível
+Calcule quanto você gastaria para percorrer devidos kilômetros
