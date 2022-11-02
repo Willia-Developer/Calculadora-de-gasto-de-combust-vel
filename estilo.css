@@ -1,5 +1,5 @@
 .container {
-  border: 1px solid #000;
+ 
     align-items: center;
     justify-content: center;
     display: flex;
@@ -7,15 +7,24 @@
    height: 100%;
     width: 100%;
    font-weight: bold;
-    background-color: #ddd8d8;
+    background: gray;
 
 }
 .titulo{
+    font-size: 30px;
+    margin-bottom: 20px;
  text-decoration: underline;
- text-transform: nowrap;
   display: flex;
   flex-direction: column;
   align-items: center;
   
-   
+}
+.refe{
+  color: yellow;
+}
+.inpu {
+    display: flex;
+    border: 1px solid black;
+    text-align: center;
+  flex-direction: column;
 }

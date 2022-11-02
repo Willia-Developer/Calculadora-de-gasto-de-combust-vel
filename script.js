@@ -18,11 +18,14 @@ const valorTotal = litrosConsumidos * precoCombustivel;
 console.log(valorTotal.toFixed(2)); */
 
 function calcular(){
-  var combustivel = document.getElementById('combustivel').value
+  var gasolina = 5.79;
+  var alcool = 4.99;
+ var tipocombustivel = gasolina; alcool;
+ document.getElementById("tipocombustivel").value;
   var km = document.getElementById('km').value
   var consumo = document.getElementById('consumo').value
   var resultado = document.getElementById('resultado').value;
-  var resultado = combustivel * km / consumo;
+  var resultado = tipocombustivel  * km / consumo;
   document.getElementById('resultado').value = resultado.toFixed(2);
 }
 

@@ -5,38 +5,44 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calcular valor gasto</title>
-  <link rel="stylesheet" href="/variaveis e operadores/estilo.css">
+  <link rel="stylesheet" href="/estilo.css">
 </head>
 
-<body>
-  
-  <div class="container">
-    <h1 class="titulo">Calculadora de Combustível Gasto</h1>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+<body >
+ 
 
-   Valor combustivel
- <input type="text" name="combustivel" id="combustivel" >
- Kilômetros percorridos
- <input type="text" name="km" id="km">
- Consumo médio
- <input type="text" name="consumo" id="consumo">
-  Resultado 
- <input type="text" name="resultado" id="resultado">
- <button  onclick="calcular(resultado)">Calcular</button>
-    
-  
+  <div>
+
+    <h1 class="titulo">Calculadora de Combustível Gasto</h1>
+  </div>
+
+  <div class="container">
+    <h3 class="refe">
+      Referência Gasolina : 5.79 <br>
+      Referência Alcool : 4.99
+
+    </h3>
+   
+   <div class="inpu">
+
+     Tipo Combustível: 
+     <select name="combustivel" id="tipocombustivel">
+       <option value="gasolina">Gasolina</option>
+       <option value="alcool">Álcool</option>
+     </select>
+     kilômetros percorridos
+    <input type="text" name="km" id="km" placeholder="km">
+    Consumo médio
+    <input type="text" name="consumo" id="consumo" placeholder="litros gasto por km">
+     Resultado 
+    <input type="text" name="resultado" id="resultado" placeholder="resultado sairá aqui">
+    <button  onclick="calcular(resultado)">Calcular</button>
+       
+   </div>
+
   </div>
   
-  <script src="/variaveis e operadores/script.js"></script>
+  <script src="/script.js"></script>
 
 </body>
 </html>
