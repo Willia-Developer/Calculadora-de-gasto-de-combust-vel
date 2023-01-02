@@ -28,4 +28,3 @@ function calcular(){
   var resultado = tipocombustivel  * km / consumo;
   document.getElementById('resultado').value = resultado.toFixed(2);
 }
-
